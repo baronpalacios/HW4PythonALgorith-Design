@@ -1,9 +1,12 @@
 # HW4PythonALgorith-Design
 HW3PythonALgorith-Design
 
-1-) You are going on a long trip. You start on the road at mile post 0. Along the way there are n hotels, at mile posts a1 < a2 < · · · < an, where each ai is measured from the starting point. The only places you are allowed to stop are at these hotels, but you can choose which of the hotels you stop at. You must stop at the final hotel (at distance an), which is your destination. You would ideally like to travel 200 miles a day, but this may not be possible (depending on the spacing of the hotels). If you travel x miles during a day, the penalty for that day is (200 − x) 2. You want to plan your trip so as to minimize the total penalty—that is, the sum, over all travel days, of the daily penalties. Propose a dynamic programming algorithm that determines the optimal sequence of hotels at which to stop. Implement the algorithm with Python.
+1-) You are going on a long trip. You start on the road at mile post 0. Along the way there are n hotels, at mile posts a1 < a2 < · · · < an, where each ai is measured from the starting point. The only places you are allowed to stop are at these hotels, but you can choose which of the hotels you stop at. You must stop at the final hotel (at distance an), which is your destination. You would ideally like to travel 200 miles a day, but this may not be possible (depending on the spacing of the hotels). If you travel x miles during a day, the penalty for that day is (200 − x) 
 
 
+
+
+2. You want to plan your trip so as to minimize the total penalty—that is, the sum, over all travel days, of the daily penalties. Propose a dynamic programming algorithm that determines the optimal sequence of hotels at which to stop. Implement the algorithm with Python.
 (Use A = [190, 220, 410, 580, 640, 770, 950, 1100, 1350] as distances of hotels.)
 2-) You are given a string of n characters s[1 . . . n], which you believe to be a corrupted text document in which all punctuation has vanished (so that it looks something like “itwasthebestoftimes...”). You wish to reconstruct the document using a dictionary, which is available in the form of a Boolean function dict(·): for any string w, 𝑑𝑖𝑐𝑡(𝑤)={𝑇𝑟𝑢𝑒 𝑖𝑓 𝑤 is a valid word𝐹𝑎𝑙𝑠𝑒 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
 Propose a dynamic programming algorithm that determines whether the string s can be reconstituted as a sequence of valid words. The running time should be at most O(n2), assuming calls to dict take unit time. Implement the algorithm with Python.
